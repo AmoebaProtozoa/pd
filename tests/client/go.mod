@@ -2,6 +2,9 @@ module github.com/tikv/pd/tests/client
 
 go 1.16
 
+// TODO: Remove before PR
+replace github.com/pingcap/kvproto => github.com/AmoebaProtozoa/kvproto v0.0.0-20220518064110-d3719bdcc8ed
+
 require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/protobuf v1.5.2 // indirect
